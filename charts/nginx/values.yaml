@@ -81,7 +81,7 @@ autoscaling:
   # targetMemoryUtilizationPercentage: 80
 
 nodeSelector:
-  kubernetes.io/hostname=docker-desktop
+  kubernetes.io/hostname: docker-desktop
 
 tolerations: []
 
