@@ -40,7 +40,7 @@ service:
   type: ClusterIP
   port: 80
   annotations:
-    service.beta.kubernetes.io/youngho: "my-test-1"
+    youngho.anno.test/youngho: "youngho"
 
 ingress:
   enabled: false
