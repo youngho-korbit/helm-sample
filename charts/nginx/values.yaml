@@ -39,6 +39,8 @@ securityContext: {}
 service:
   type: ClusterIP
   port: 80
+  annotations:
+    service.beta.kubernetes.io/youngho: "my-test-1"
 
 ingress:
   enabled: false
